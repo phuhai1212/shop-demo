@@ -1,10 +1,10 @@
 server:
-    port: 8868
+    port: 8869
     shutdown: graceful
 
 spring:
     datasource:
-        url: jdbc:mariadb://localhost:3306/DemoDB
+        url: jdbc:mariadb://localhost:3306/shopDB
         username: root
         password:
         driver-class-name: org.mariadb.jdbc.Driver
